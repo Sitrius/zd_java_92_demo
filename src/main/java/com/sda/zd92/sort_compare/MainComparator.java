@@ -11,8 +11,9 @@ public class MainComparator {
         Obywatel o3 = new Obywatel("111111113", "Miłosz", "Kowalski");
         Obywatel o4 = new Obywatel("111111114", "Filip", "Kowalski");
         Obywatel o5 = new Obywatel("111111115", "Grażyna", "Nowak");
+
 //        ###################### LISTY I ICH SORTOWANIE
-//        List<Obywatel> obywatels = new ArrayList<>(Arrays.asList(o1, o2, o3, o4, o5));
+        List<Obywatel> obywatels = new ArrayList<>(Arrays.asList(o1, o2, o3, o4, o5));
 //        System.out.println("Przed: " + obywatels);
 //        PorownywarkaObywateli porownywarkaObywateli = new PorownywarkaObywateli();
 //        obywatels.sort(porownywarkaObywateli);
@@ -74,5 +75,6 @@ public class MainComparator {
         for (Map.Entry<String, Obywatel> wpisWMapie : obywatelMap.entrySet()) {
             System.out.println("Klucz: " + wpisWMapie.getKey() + " wartość: " + wpisWMapie.getValue());
         }
+
     }
 }
