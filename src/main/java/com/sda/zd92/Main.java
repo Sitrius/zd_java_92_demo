@@ -2,6 +2,8 @@ package com.sda.zd92;
 
 import com.sda.zd92.obj.Kot;
 
+import java.util.UUID;
+
 public class Main {
     public static void main(String[] args) {
         Kot kot1 = new Kot("Jan");
@@ -32,6 +34,6 @@ public class Main {
         kot3 = kot4;
         System.out.println(kot3.equals(kot4)); // porównuje = true
 
-
+        System.out.println(String.valueOf(UUID.randomUUID()).replaceAll("-", "")); // zastąp '-' = ''
     }
 }

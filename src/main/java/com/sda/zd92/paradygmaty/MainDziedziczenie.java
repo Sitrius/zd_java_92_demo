@@ -78,6 +78,19 @@ public class MainDziedziczenie {
         Rower r = new Rower();
         // lalala
         // tratata
+                                                                // implementacja interfejsu
+                                                                // klasa anonimowa
+        InterfA jakisObiektKtoregoStworzycNiePowinienemMóc = new InterfA() {
+            @Override
+            public void metoda() {
+
+            }
+
+            @Override
+            public int innaMetoda() {
+                return 0;
+            }
+        };
     }
 
     static class Samochód extends KlasaAbstrakcyjnaPojazd {
