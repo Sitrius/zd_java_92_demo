@@ -21,6 +21,8 @@ public class ListaBenchmark {
 
     private static void przeszukajListe(List<Integer> list) {
         int zmienna = 0;
+        // zastąpienie pętli for-i pętlą for-each również rozwiązuje problem.
+//        for (Integer integer : list) {
         for (int i = 0; i < list.size(); i++) {
             // n  - arraylist
             // n! - linkedlist
