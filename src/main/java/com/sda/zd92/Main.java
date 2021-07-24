@@ -3,6 +3,7 @@ package com.sda.zd92;
 import com.sda.zd92.obj.Kot;
 
 public class Main {
+
     public static void main(String[] args) {
         Kot kot1 = new Kot("Jan");
         Kot kot2 = new Kot("Jan");
