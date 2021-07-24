@@ -10,18 +10,24 @@ public class Kot /*extends Object*/{
         this.imie = imie;
     }
 
-//    @Override
-//    public boolean equals(Object o) {
-//        if (this == o) return true;
-//        if (o == null || getClass() != o.getClass()) return false;
-//        Kot kot = (Kot) o;
-//        return Objects.equals(imie, kot.imie);
-//    }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Kot kot = (Kot) o;
+        return Objects.equals(imie, kot.imie);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(imie);
+    }
+//                  haschode int'a to jego wartość
+//                  2*5 = 10  =  10
+//                                                  ------- (obiekt porównywany)
+//                                                  (dzialanie A)  ->   = 10    (hashcode)
+//                                                  (działanie B)  ->   = 10    (hashcode)
 //
-//    @Override
-//    public int hashCode() {
-//        return Objects.hash(imie);
-//    }
 //
     @Override
     public String toString() {

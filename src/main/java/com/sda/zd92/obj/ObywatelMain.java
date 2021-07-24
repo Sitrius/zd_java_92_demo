@@ -46,19 +46,43 @@ public class ObywatelMain {
         // common_prefixDB
         String s1 = "common_prefixDB";
         String s2 = "common_prefixCa";
-        System.out.println("common_prefixDB");
-        System.out.println("common_prefixDB".hashCode());
-        System.out.println("common_prefixCa");
-        System.out.println("common_prefixCa".hashCode());
+        System.out.println("common_prefixDB"); // 2 * 5
+        System.out.println("common_prefixDB".hashCode()); // = 500
+        System.out.println("common_prefixCa"); // 1 * 10
+        System.out.println("common_prefixCa".hashCode()); // = 500
         System.out.println(s1.equals(s2)); // ? = false - porównało wartości obiektów, czyli treść tekstową
 
         System.out.println("---------------");
-        Integer i1 = new Integer(5);
-        Integer i2 = new Integer(10);
-        System.out.println(i1.equals(i2));
+        Integer i1 = new Integer(10);  // 10
+        Integer i2 = new Integer(10);  // 10
+        System.out.println(i1.equals(i2)); // true
         System.out.println(i1.hashCode());
         System.out.println(i2.hashCode());
         // 4 * 1 = 4
         // 2 * 2 = 4
+        String twojeImie = "Mateusz";
+        String mojeImie =  "Paweł";
+
+        // equals = false
+        // equals porównuje treść
+        // hash - > liczba na podstawie wartości
+
+        System.out.println("\n");
+        String dzialanie1 = "2 * 5";    // 50 * 32 * 42 * 32 * 53
+        String dzialanie2 = "1 * 10";   // 49 * 32 * 42 * 32 * 49 * 48
+        System.out.println(dzialanie1.equals(dzialanie2));
+        System.out.println(dzialanie1.hashCode());
+        System.out.println(dzialanie2.hashCode());
+
+        System.out.println("\n");
+        Integer dzialanie1I = 2 * 5;
+        Integer dzialanie2I = 1 * 10;
+        System.out.println(dzialanie1I);
+        System.out.println(dzialanie1I.hashCode());
+        System.out.println(dzialanie2I);
+        System.out.println(dzialanie2I.hashCode());
+        System.out.println(dzialanie1I.equals(dzialanie2I));
+
+
     }
 }
