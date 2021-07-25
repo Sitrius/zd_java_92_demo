@@ -1,11 +1,11 @@
-package com.sda.zd92.pliki;
+package com.sda.zd92.pliki.odczyt;
 
 import java.io.*;
 import java.util.Scanner;
 
 public class OdczytBufferedReaderMainTryWithResources {
     public static void main(String[] args) {
-        try (BufferedReader reader = new BufferedReader(new FileReader("taki_pslik.txt"))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader("taki_plik.txt"))) {
 
             // przeczytanie całego pliku i wypisanie na konsole
             reader.lines().forEach(System.out::println);

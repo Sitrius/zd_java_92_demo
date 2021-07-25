@@ -1,4 +1,4 @@
-package com.sda.zd92.pliki;
+package com.sda.zd92.pliki.odczyt;
 
 import java.io.File;
 import java.io.FileInputStream;
