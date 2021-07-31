@@ -6,7 +6,7 @@ public class Kukułka extends Ptak {
         System.out.println("ku ku");
     }
 
-    public void spiewaj(String spiew) {
-        System.out.println("Spiewam: " + spiew);
+    public void kukaj(){
+        System.out.println("Ku kuł kułka");
     }
 }
