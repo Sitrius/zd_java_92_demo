@@ -1,0 +1,24 @@
+Ile lat ma Damian?
+a. Damian się nie urodził
+b. Damian ma 20 lat
+c. Damian ma 15 lat
+d. A co Cię to obchodzi?
+3
+Podaj ulubione zwierze Lolka?
+a. Pies
+b. Kot
+c. Zyrawa
+d. Slon
+0
+Podaj ulubiona pore roku Toli?
+a. Wiosna
+b. Lato
+c. Jesien
+d. Zima
+1
+Ilu jest kursantow?
+a. 10
+b. 15
+c. 12
+d. 13
+2
